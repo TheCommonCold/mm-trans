@@ -1,0 +1,89 @@
+$primary: #e8ae00;
+$dark: #212529;
+
+@import "bootstrap";
+
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.carousele-img{
+  object-fit: cover;
+  max-height: 1000px;
+}
+
+.feature-title{
+  margin-top: 5rem;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.featurette-image{
+  object-fit: cover;
+  max-height: 300px;
+  width:100%;
+}
+
+.thin{
+  font-weight: 400;
+}
+
+.feature-text{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.sticky{
+  z-index: -1;
+}
+
+.divider{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: repeating-linear-gradient(
+  45deg,
+  $primary,
+  $primary 20px,
+  $dark 20px,
+  $dark 40px
+);
+}
+
+.fades{
+  // background-color: #e2e2e6;
+  background-image: url(https://i.pinimg.com/736x/d5/09/45/d509451d282b5cad25e27eff8ee0aa6b.jpg);
+  background-repeat:repeat;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 1) inset;
+}
+
+.shadow{
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.sub-card{
+  background-color: #e2e2e6;
+}
+
+#main-img {
+  background-image:
+  linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1)),
+  url(main.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  top:74px !important;
+}
+
+#logo{
+  height: 3rem;
+}
+
+#front-text{
+  font-weight: 700;
+  letter-spacing: 0rem;
+  font-size: 10rem;
+}
