@@ -11,7 +11,7 @@ import logo from '../logo.png'
 function Topbar() {
     return (
         <Navbar color="dark" expand="md" className="sticky-top shadow">
-            <NavbarBrand className="mr-auto" href="/"><img id='logo' src={logo}></img></NavbarBrand>
+            <NavbarBrand className="mr-auto" href="/"><img id='logo' src={logo} alt='logo'></img></NavbarBrand>
             <Nav navbar>
                 <NavItem>
                     <NavLink href="/">Start</NavLink>

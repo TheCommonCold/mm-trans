@@ -1,11 +1,4 @@
 import React from 'react';
-import {
-    Navbar,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-} from 'reactstrap';
 import Container from 'reactstrap/lib/Container';
 import ContactSection from './contactSection'
 

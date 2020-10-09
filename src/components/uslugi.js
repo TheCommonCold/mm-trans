@@ -1,16 +1,9 @@
 import React from 'react';
-import CarouselContainer from './carousel'
 import {
     Jumbotron,
     Container,
     Row,
-    Col,
-    CardBody,
-    CardTitle,
-    CardSubtitle,
-    CardText,
 } from 'reactstrap';
-import SubCard from './subCard';
 import Feature from './feature';
 import StartData from '../data/start.json'
 

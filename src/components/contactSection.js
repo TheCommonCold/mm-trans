@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import Map from './map.js';
 import {
   Jumbotron,
-  Button,
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardText,
   Col,
   Row
 } from 'reactstrap';

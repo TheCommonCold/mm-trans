@@ -5,7 +5,7 @@ import {
 } from 'reactstrap';
 
 function Feature(props) {
-    if (props.id % 2 == 0)
+    if (props.id % 2 === 0)
         return (
             <Row>
                 <Col xs='7'>
@@ -13,7 +13,7 @@ function Feature(props) {
                     <p className='feature-text'>{props.text}</p>
                 </Col>
                 <Col xs='5'>
-                    <img class="featurette-image" data-src="holder.js/400x400/auto" alt="" src={props.img} data-holder-rendered="true" />
+                    <img className="featurette-image" data-src="holder.js/400x400/auto" alt="" src={props.img} data-holder-rendered="true" />
                 </Col>
                 <hr />
             </Row>
@@ -21,7 +21,7 @@ function Feature(props) {
     return (
         <Row>
             <Col xs='5'>
-                <img class="featurette-image" data-src="holder.js/400x400/auto" alt="" src={props.img} data-holder-rendered="true" />
+                <img className="featurette-image" data-src="holder.js/400x400/auto" alt="" src={props.img} data-holder-rendered="true" />
             </Col>
             <Col xs='7'>
                 <h1 className='feature-title'>{props.title}</h1>
