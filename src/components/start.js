@@ -5,7 +5,7 @@ import {
     Row,
     Col,
 } from 'reactstrap';
-import SubCard from './subCard';
+import Card from './card';
 import Feature from './feature';
 import StartData from '../data/start.json'
 import logo from '../logo.png'
@@ -15,7 +15,7 @@ function Start() {
         return (
             <Row key={index} className='text-center'>
                 {cards.map((card, index) => {
-                    return <Col key={index}><SubCard title={card.title} circle={circle} img={card.img} link={link} /></Col>
+                    return <Col key={index}><Card title={card.title} circle={circle} img={card.img} link={link} /></Col>
                 })}
             </Row>)
     }

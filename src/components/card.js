@@ -2,7 +2,7 @@ import React from 'react';
 
 import { HashLink as Link } from 'react-router-hash-link';
 
-function SubCard(props) {
+function Card(props) {
     if (props.link) {
         return (
             <Link to={props.link + '#' + props.title}>
@@ -33,4 +33,4 @@ function SubCard(props) {
     );
 }
 
-export default SubCard;
+export default Card;

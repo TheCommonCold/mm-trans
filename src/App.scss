@@ -6,6 +6,20 @@ $dark: #212529;
 // html {
 //   scroll-behavior: smooth;
 // }
+.circle {
+  border-radius: 50%;
+  border: 0px;
+}
+
+.back{
+  color: $dark;
+  position: fixed;
+  bottom:5px;
+  width: 70px;
+  height: 70px;
+  background: $primary;
+  padding: 12px;
+}
 
 Nav a{
   color:$primary

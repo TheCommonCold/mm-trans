@@ -6,15 +6,18 @@ import {
 } from 'reactstrap';
 import Feature from './feature';
 import StartData from '../data/start.json'
+import Back from './back';
+import { FaArrowLeft } from 'react-icons/fa'
 
 function Uslugi() {
     return (
         <div class="divider">
+            <Back> <FaArrowLeft /> </Back>
             <Jumbotron className='m-0 p-5 fades'>
                 {StartData[0].rows.map((row, index1) => {
                     return row.map((section, index2) => {
                         return (
-                            <Container className='bg-light shadow p-5'>
+                            <Container className='bg-light p-5'>
                                 <Row>
                                     <Feature id={index1 + index2} title={section.title} img={section.img} text={section.text} />
                                 </Row>
