@@ -3,6 +3,21 @@ $dark: #212529;
 
 @import "bootstrap";
 
+// html {
+//   scroll-behavior: smooth;
+// }
+
+Nav a{
+  color:$primary
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
 
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -14,7 +29,7 @@ body{
 }
 
 .feature-title{
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-size: 50px;
   font-weight: 400;
 }
@@ -36,6 +51,11 @@ body{
 
 .sticky{
   z-index: -1;
+}
+
+.anchor{
+  position: relative;
+  top:-100px
 }
 
 .divider{
@@ -66,6 +86,22 @@ body{
   background-color: #e2e2e6;
 }
 
+.marker{
+  margin-top: -8px;
+}
+
+.marker-icon{
+  color: red;
+  margin-top:-30px;
+}
+
+.marker-text{
+  font-weight: bolder;
+  margin-left:12px;
+}
+
+
+
 #main-img {
   background-image:
   linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1)),
@@ -86,4 +122,24 @@ body{
   font-weight: 700;
   letter-spacing: 0rem;
   font-size: 10rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $dark;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
 }

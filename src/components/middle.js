@@ -14,7 +14,7 @@ function Middle() {
                 <Route exact path="/">
                     <Start />
                 </Route>
-                <Route path="/uslugi">
+                <Route path="/uslugi" ignoreScrollBehavior>
                     <Uslugi />
                 </Route>
             </Switch>

@@ -1,14 +1,12 @@
 import React from 'react';
 
-import {
-    BrowserRouter as Link
-} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function SubCard(props) {
-    if (props.link)
+    if (props.link) {
         return (
-            <div className='shadow p-1 m-1'>
-                <Link to={props.link}>
+            <Link to={props.link + '#' + props.title}>
+                <div className='shadow p-1 m-1'>
                     {props.circle && <img className='rounded-circle w-75' src={props.img} alt="Card cap" />}
                     {!props.circle && <img className='w-100' src={props.img} alt="Card cap" />}
                     <h3 className='font-weight-light'>
@@ -17,9 +15,10 @@ function SubCard(props) {
                     <p>
                         {props.text}
                     </p>
-                </Link>
-            </div>
+                </div>
+            </Link>
         );
+    }
     return (
         <div className='shadow p-1 m-1'>
             {props.circle && <img className='rounded-circle w-75' src={props.img} alt="Card cap" />}

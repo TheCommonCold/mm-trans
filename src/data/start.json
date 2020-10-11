@@ -2,9 +2,9 @@
     {
         "title": "Usługi",
         "circle": true,
+        "link": "/uslugi",
         "text": "Pełny opis świadczonej usługi. blabla blabla blabla v v blabla blabla blablablablablabla blabla blablablabla blabla",
         "img": "https://simnat.pl/wp-content/uploads/2020/07/IMG-20200717-WA0000-400x400.jpg",
-        "link": "/uslugi",
         "rows": [
             [
                 {

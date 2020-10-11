@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import { FaMapMarker } from 'react-icons/fa';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const Marker = ({ text }) =>
+  <div className='marker'>
+    <span className='marker-text'>{text}</span>
+    <FaMapMarker className='marker-icon' />
+  </div>;
 
 class Map extends Component {
 
   static defaultProps = {
     center: {
-      lat: 52.343156,
-      lng: 17.017384
+      lat: 52.377131,
+      lng: 16.990049
     },
-    zoom: 11
+    zoom: 11.5
   };
 
   render() {
@@ -21,10 +26,26 @@ class Map extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <AnyReactComponent
-            lat={this.props.center.lat}
-            lng={this.props.center.lng}
-            text="MM-Trans"
+          <Marker
+            lat={52.343156}
+            lng={17.017384}
+            text="Biuro"
+          />
+
+          <Marker
+            lat={52.367809}
+            lng={16.980561}
+            text="Bocznica"
+          />
+          <Marker
+            lat={52.416125}
+            lng={16.967128}
+            text="Bocznica"
+          />
+          <Marker
+            lat={52.3455}
+            lng={17.015178}
+            text="Kruszywa"
           />
         </GoogleMapReact>
       </div>
