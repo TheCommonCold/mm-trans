@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import { FaMapMarker } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const Marker = ({ text }) =>
   <div className='marker'>
     <span className='marker-text'>{text}</span>
-    <FaMapMarker className='marker-icon' />
+    <FaMapMarkerAlt size={20} className='marker-icon' />
   </div>;
 
 class Map extends Component {
