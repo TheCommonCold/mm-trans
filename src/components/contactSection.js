@@ -12,7 +12,7 @@ class contactSection extends Component {
 
   render() {
     return (
-      <Jumbotron className='bg-light p-4'>
+      <Jumbotron className='p-4'>
         <Row>
           <Col>
             <Map />
@@ -24,29 +24,11 @@ class contactSection extends Component {
               <Row>
                 <Col>
                   <Card className='p-2'>
-                    <h4 className='contant-title'>Biuro</h4>
-                    <h6>Przemyska 34, 61-324 Poznań</h6>
-                    <h6>+48 601 702 941</h6>
-                    <h6>+48 603 747 474</h6>
-                    <h6>biuro@mm-trans.pl</h6>
-                  </Card>
-                </Col>
-                <Col>
-                  <Card className='p-2'>
-                    <h4 className='contant-title'>Kruszywa</h4>
-                    <h6>Przemyska 34, 61-324 Poznań</h6>
-                    <h6>+48 601 702 941</h6>
-                    <h6>+48 603 747 474</h6>
-                    <h6>biuro@mm-trans.pl</h6>
-                  </Card>
-                </Col>
-                <Col>
-                  <Card className='p-2'>
-                    <h4 className='contant-title'>Beton</h4>
-                    <h6>Przemyska 34, 61-324 Poznań</h6>
-                    <h6>+48 601 702 941</h6>
-                    <h6>+48 603 747 474</h6>
-                    <h6>biuro@mm-trans.pl</h6>
+                    <h6>MM-TRANS</h6>
+                    <h6>MARIUSZ GRYGIER, MARCIN GRYGIER SPÓŁKA JAWNA</h6>
+                    <h6>Przemyska 34, 61-324 Poznań, Polska</h6>
+                    <h6>Tel: +48 601 702 941</h6>
+                    <h6>Email: biuro@mm-trans.pl</h6>
                   </Card>
                 </Col>
               </Row>

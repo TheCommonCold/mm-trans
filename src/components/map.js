@@ -4,7 +4,6 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const Marker = ({ text }) =>
   <div className='marker'>
-    <span className='marker-text'>{text}</span>
     <FaMapMarkerAlt size={20} className='marker-icon' />
   </div>;
 
@@ -12,10 +11,10 @@ class Map extends Component {
 
   static defaultProps = {
     center: {
-      lat: 52.377131,
-      lng: 16.990049
+      lat: 52.343156,
+      lng: 17.017384
     },
-    zoom: 11.5
+    zoom: 12
   };
 
   render() {
@@ -29,24 +28,8 @@ class Map extends Component {
           <Marker
             lat={52.343156}
             lng={17.017384}
-            text="Biuro"
           />
 
-          <Marker
-            lat={52.367809}
-            lng={16.980561}
-            text="Bocznica"
-          />
-          <Marker
-            lat={52.416125}
-            lng={16.967128}
-            text="Bocznica"
-          />
-          <Marker
-            lat={52.3455}
-            lng={17.015178}
-            text="Kruszywa"
-          />
         </GoogleMapReact>
       </div>
     );
