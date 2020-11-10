@@ -15,10 +15,10 @@ function App() {
       <Jumbotron className='m-0 p-3 fades text-white'>
         <Container className='inner' >
           <div className="row align-items-center h-100">
-            <div className='w-100'>
+            <div className='w-100 color'>
               <div className='text-center'>
                 <img className='logo' src={logo} alt='img'></img>
-                <h5 className=''>Strona w budowie...</h5>
+                <h3 className='m-3'>Strona w budowie...</h3>
               </div>
               <hr />
               <Container >
