@@ -1,0 +1,47 @@
+$primary: #e8ae00;
+$dark: #212529;
+
+.temp-hr{
+  background-color:#666
+}
+
+.temp-logo{
+  max-width: 500px;
+  width: 100%;
+}
+
+.temp-divider{
+  padding: 1vh;
+  background: repeating-linear-gradient(
+  45deg,
+  $primary,
+  $primary 20px,
+  $dark 20px,
+  $dark 40px
+);
+}
+
+.temp-inner{
+  height: 100%;
+}
+
+.temp-color{
+  padding:20px;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+  background-color: rgb(42, 42, 46) !important;
+}
+
+.temp-card{
+  color:white !important;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(42, 42, 46) !important;
+}
+
+.temp-fades{
+  margin: 20px;
+  padding:1vh;
+  height: 98vh;
+}

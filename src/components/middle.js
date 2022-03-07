@@ -11,7 +11,7 @@ function Middle() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/secret">
                     <Start />
                 </Route>
                 <Route path="/uslugi" ignoreScrollBehavior>

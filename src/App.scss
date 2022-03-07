@@ -33,10 +33,6 @@ a:hover {
   text-decoration: none;
 }
 
-hr{
-  background-color:#666
-}
-
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -76,13 +72,10 @@ body{
   top:-100px
 }
 
-.logo{
-  max-width: 500px;
-  width: 100%;
-}
-
 .divider{
-  padding: 1vh;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   background: repeating-linear-gradient(
   45deg,
   $primary,
@@ -92,36 +85,11 @@ body{
 );
 }
 
-.inner{
-  height: 100%;
-}
-
-.color{
-  padding:20px;
-  border-radius: 10px;
-  border: 0px;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
-  background-color: rgb(42, 42, 46) !important;
-}
-
-.card{
-  color:white !important;
-  border-radius: 5px;
-  border: 0px;
-  background-color: rgb(42, 42, 46) !important;
-}
-
 .fades{
   // background-color: #e2e2e6;
   background-image: url(https://i.pinimg.com/736x/d5/09/45/d509451d282b5cad25e27eff8ee0aa6b.jpg);
   background-repeat:repeat;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 1) inset;
-}
-
-.fades{
-  margin: 20px;
-  padding:1vh;
-  height: 98vh;
 }
 
 .shadow{
@@ -130,6 +98,10 @@ body{
 
 .sub-card{
   background-color: #e2e2e6;
+}
+
+.marker{
+  margin-top: -8px;
 }
 
 .marker-icon{
