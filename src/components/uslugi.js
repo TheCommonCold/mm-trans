@@ -6,12 +6,11 @@ import {
 } from 'reactstrap';
 import Feature from './feature';
 import StartData from '../data/start.json'
-import Back from './back';
 
 function Uslugi() {
     return (
         <div class="divider">
-            <Back />
+            {/* <Back /> */}
             <Jumbotron className='m-0 p-5 fades'>
                 {StartData[0].rows.map((row, index1) => {
                     return row.map((section, index2) => {

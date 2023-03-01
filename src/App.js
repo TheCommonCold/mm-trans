@@ -9,7 +9,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <div style={{position: "relative", zIndex:-1}}>
       <Router>
         <Topbar />
       </Router>

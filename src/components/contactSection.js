@@ -12,18 +12,15 @@ class contactSection extends Component {
 
   render() {
     return (
-      <Jumbotron className='bg-light p-4'>
+      <Jumbotron className='bg-light'>
         <Row>
           <Col>
-            <Map />
-          </Col>
-          <Col>
-            <Container>
+            <Container fluid className="p-0">
               <h1 className='thin'>Kontakt</h1>
               <hr></hr>
-              <Row>
-                <Col>
-                  <Card className='p-2'>
+              <Row className='pb-3'>
+                <Col sm='12' lg='4'>
+                  <Card className='p-2 m-2'>
                     <h4 className='contant-title'>Biuro</h4>
                     <h6>Przemyska 34, 61-324 Poznań</h6>
                     <h6>+48 601 702 941</h6>
@@ -31,8 +28,8 @@ class contactSection extends Component {
                     <h6>biuro@mm-trans.pl</h6>
                   </Card>
                 </Col>
-                <Col>
-                  <Card className='p-2'>
+                <Col sm='12' lg='4'>
+                  <Card className='p-2 m-2'>
                     <h4 className='contant-title'>Kruszywa</h4>
                     <h6>Przemyska 34, 61-324 Poznań</h6>
                     <h6>+48 601 702 941</h6>
@@ -40,8 +37,8 @@ class contactSection extends Component {
                     <h6>biuro@mm-trans.pl</h6>
                   </Card>
                 </Col>
-                <Col>
-                  <Card className='p-2'>
+                <Col sm='12' lg='4'>
+                  <Card className='p-2 m-2'>
                     <h4 className='contant-title'>Beton</h4>
                     <h6>Przemyska 34, 61-324 Poznań</h6>
                     <h6>+48 601 702 941</h6>
@@ -51,6 +48,9 @@ class contactSection extends Component {
                 </Col>
               </Row>
             </Container>
+          </Col>
+          <Col sm='12' md='6'>
+            <Map />
           </Col>
         </Row>
       </Jumbotron>
